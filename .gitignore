@@ -1,23 +1,60 @@
-# Compiled class file
-*.class
+.metadata
+bin /
+tmp /
+* .tmp
+* .bak
+* .swp
+* ~ .nib
+local.properties
+.settings /
+.loadpath
+.recommenders
 
-# Log file
-*.log
+# Construtores externos de ferramentas
+.externalToolBuilders /
 
-# BlueJ files
-*.ctxt
+# "Configurações de inicialização do Eclipse" armazenadas localmente
+* .launch
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# PyDev específico (Python IDE para Eclipse)
+* .pydevproject
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Específico para CDT (ferramentas de desenvolvimento C / C ++)
+.cproject
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# CDT- autotools
+.autotools
+
+# Processador de anotação Java (APT)
+.factorypath
+
+# Específico para PDT (Ferramentas de Desenvolvimento PHP)
+.buildpath
+
+# plugin sbteclipse
+.alvo
+
+# Plugin Tern
+.tern-project
+
+# Plugin TeXlipse
+.texlipse
+
+# STS (Conjunto de ferramentas Spring)
+.springBeans
+
+# Recomendadores de código
+.recommenders /
+
+# Processamento de anotação
+.apt_generated /
+.apt_generated_test /
+
+# Scala IDE específico (desenvolvimento Scala e Java para Eclipse)
+.cache-main
+.scala_dependencies
+.folha de trabalho
+
+# Remova o comentário desta linha se desejar ignorar o arquivo de descrição do projeto.
+# Normalmente, este arquivo seria rastreado se contiver configurações de compilação / dependência:
+# .project
